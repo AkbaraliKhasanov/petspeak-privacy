@@ -17,7 +17,7 @@
     <div class="effective">Effective: June 1, 2026</div>
 
     <div class="callout">
-      <p><strong>Short version:</strong> We don't collect personal data, don't create accounts, and don't track you. Your pet photos are sent to OpenAI only to generate a translation, then discarded. Your translation history stays on your device.</p>
+      <p><strong>Short version:</strong> We don't collect personal data, don't create accounts, and don't track you. Your pet photos are sent to Google's Gemini AI only to generate a caption, then discarded. Your caption history stays on your device.</p>
     </div>
 
     <h2>1. Who we are</h2>
@@ -29,20 +29,20 @@
 
     <h3>2.1 Information you provide</h3>
     <ul>
-      <li><strong>Pet photos</strong> — when you tap "Translate", the image is sent to our backend and then to OpenAI for analysis. The image is not stored on our servers. OpenAI processes it under their own policy.</li>
+      <li><strong>Pet photos</strong> — when you tap "Generate Caption", the image is sent to our backend and then to Google's Gemini API for analysis. The image is not stored on our servers. Google processes it under its own policy.</li>
       <li><strong>Personality choice</strong> — the chosen voice style (Cute, Sassy, Royal, Philosopher, or Street Boss) is sent with the request so the AI can match the tone. We do not store this beyond the request.</li>
     </ul>
 
     <h3>2.2 Information collected automatically</h3>
     <ul>
-      <li><strong>Anonymous device identifier</strong> — a random UUID generated on your device, used only for rate-limiting (3 free translations per day). This identifier cannot be linked back to you and is not tied to your Apple ID, email, name, or any other personal information.</li>
+      <li><strong>Anonymous device identifier</strong> — a random UUID generated on your device, used only for rate-limiting (3 free captions per day). This identifier cannot be linked back to you and is not tied to your Apple ID, email, name, or any other personal information.</li>
       <li><strong>Standard server logs</strong> — IP address, request timestamp, and User-Agent. These are kept for up to 14 days for security and abuse-prevention purposes only.</li>
     </ul>
 
     <h3>2.3 Information stored on your device</h3>
     <ul>
-      <li><strong>Translation history</strong> — your past translations (text, pet type, mood, date) are stored locally in the App via <code>UserDefaults</code>. They never leave your device and we cannot access them. You can clear this history at any time.</li>
-      <li><strong>Settings</strong> — onboarding state, daily translation count.</li>
+      <li><strong>Caption history</strong> — your past captions (text, pet type, mood, date) are stored locally in the App via <code>UserDefaults</code>. They never leave your device and we cannot access them. You can clear this history at any time.</li>
+      <li><strong>Settings</strong> — onboarding state, daily caption count.</li>
     </ul>
 
     <h2>3. What we do NOT collect</h2>
@@ -57,8 +57,8 @@
     <h2>4. How we use information</h2>
     <p>The data we receive is used only to:</p>
     <ul>
-      <li>Generate the pet translation you requested.</li>
-      <li>Enforce the daily free translation limit.</li>
+      <li>Generate the pet caption you requested.</li>
+      <li>Enforce the daily free caption limit.</li>
       <li>Protect the service from abuse and bots.</li>
       <li>Maintain and improve the App.</li>
     </ul>
@@ -66,14 +66,14 @@
     <h2>5. Third-party services</h2>
     <p>We use a small number of third parties strictly necessary to operate the App:</p>
     <ul>
-      <li><strong>OpenAI</strong> — generates the translation text. Your pet photo is sent to OpenAI's API. See <a href="https://openai.com/policies/privacy-policy" target="_blank" rel="noopener">OpenAI's Privacy Policy</a>.</li>
+      <li><strong>Google</strong> — generates the caption text. Your pet photo is sent to Google's Gemini API. See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</li>
       <li><strong>Apple StoreKit</strong> — handles in-app purchases and subscriptions. Purchase data is handled by Apple under <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple's Privacy Policy</a>.</li>
       <li><strong>Hosting provider</strong> — our backend runs on a server provided by Hetzner Online GmbH (Germany).</li>
     </ul>
 
     <h2>6. Data retention</h2>
     <ul>
-      <li>Pet photos — <strong>not stored</strong> after the translation is generated.</li>
+      <li>Pet photos — <strong>not stored</strong> after the caption is generated.</li>
       <li>Server logs — up to 14 days.</li>
       <li>On-device history — until you delete it or uninstall the App.</li>
     </ul>
@@ -98,7 +98,7 @@
 
     <h2>10. International transfers</h2>
     <p>
-      Our backend is hosted in Germany. Translation requests are sent to OpenAI, which may process data in the United States. By using the App you consent to these transfers.
+      Our backend is hosted in Germany. Caption requests are sent to Google's Gemini API, which may process data in the United States. By using the App you consent to these transfers.
     </p>
 
     <h2>11. Changes to this policy</h2>
